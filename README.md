@@ -29,13 +29,17 @@
 
 ## 와이어 프레임
 
+### ver 1
+
+<img src = "https://github.com/Seungkyu-Han/Seungkyu.com/blob/main/ver%201/ver%201_model.JPG">
+
 <hr>
 
 ## 버전별 완성 모델 소개
 
 ### ver 0
 
-<img src = "https://github.com/Seungkyu-Han/Seungkyu.com/blob/main/v0.0.0/v0.0.0.png">
+<img src = "https://github.com/Seungkyu-Han/Seungkyu.com/blob/main/ver%200/ver%200.png">
 
 <hr>
 
