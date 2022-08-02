@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'T-Way';
+    src: url(tway_air.ttf);
+}
+
+#wrap{
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'T-Way';
+}
