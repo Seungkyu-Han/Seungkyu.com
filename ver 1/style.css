@@ -3,8 +3,64 @@
     src: url(tway_air.ttf);
 }
 
+body{
+    width: 100%;
+}
+
 #wrap{
-    margin: 0 auto;
-    padding: 10px;
+    width: 100%;
+    min-width: 320px;
+    position: relative;
+}
+
+#header{
+    width: 100%;
+    height: 60px;
     font-family: 'T-Way';
+    font-size: 12px;
+}
+#headerInner{
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+/* 메인로고 크기, 위치 정하기 */
+.logo_div{
+    display: inline-block;
+    height: 40px;
+    width : 80px;
+    margin: 0px 10px 0 30px;
+    padding-bottom: 0px;
+}
+.logo_div img{
+    display: inline-block;
+    width: 60px;
+    margin-bottom: 3px;
+}
+
+#header_nav{
+    margin: 15px 0 15px 30px;
+    width: 820px;
+    display: inline-block;
+}
+.header_menu{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 820px;
+    position: relative;
+    display: inline-block;
+}
+
+.header_menu > li{
+    list-style-type: none;
+    position: relative;
+    margin-right: 100px;
+    float: left;
+    line-height: 27.5px;
+}
+
+.header_menu li:last-child{
+    margin-right: 0;
 }

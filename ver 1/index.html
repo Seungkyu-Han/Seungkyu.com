@@ -3,9 +3,17 @@
     <head>
         <meta charset = "UTF-8">
         <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <link rel = "icon" type = "svg" href = "seungkyu_logo.svg">
         <meta name = "author" content = "Seungkyu-Han">
-        <meta name = "description" content = "Seungkyu-Han's profile">
-        <title>Seungkyu-Han</title>
+        <meta name = "description" content = "Seungkyu-Han's profile, 한승규 홈페이지">
+
+        <meta property = "og:title" content = "한승규">
+        <meta property = "og:type" content = "website">
+        <meta property = "og:url" content = "http://seungkyuhan.dothome.co.kr/">
+        <meta property = "og:image" content = "./seungkyu_logo.svg">
+        <meta property = "og:description" content = "한승규에 대해 알아보자!">
+
+        <title>한승규의 홈페이지</title>
         <!-- 티웨이 항공 글씨체(티웨이항공체) 사용했다고 푸터에 표기하기 완료하면 이 주석 지우기-->
         <link rel = "stylesheet" href = "style.css">
         <link rel = "stylesheet" href = "header.css">
@@ -15,7 +23,23 @@
     </head>
     <body>
         <div id = "wrap">
-            <p>hello</p>
+            <header id = "header">
+                <div id = "headerInner">
+                    <div class = "logo_div">
+                        <a href = "index.html">
+                            <img src = "seungkyu_logo.svg" alt = "메인로고">
+                        </a>
+                    </div>
+                    <nav id = "header_nav">
+                        <ul class = "header_menu">
+                            <li class>한승규의 프로필</li>
+                            <li class>풀스택 개발자로 가는 과정</li>
+                            <li class>심심해서 만드는 프로젝트</li>
+                            <li class>참여한 프로젝트 소개</li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
         </div>
     </body>
 </html>
