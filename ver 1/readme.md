@@ -1,1 +1,3 @@
-ver 1 readme.md
+ver 1
+
+220803 OG태그 추가, 헤더에 nav를 이용하여 상단 바 작성
