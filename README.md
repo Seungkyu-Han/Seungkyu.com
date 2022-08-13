@@ -41,11 +41,18 @@
 
 <img src = "https://github.com/Seungkyu-Han/Seungkyu.com/blob/main/ver%200/ver%200.png">
 
+### ver 1
+<img src = "https://github.com/Seungkyu-Han/Seungkyu.com/blob/main/ver%201/ver%201.png">
+
 <hr>
 
 ## 버전별 사용 개발 스택 및 프레임 워크
 
 ### ver 0
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=black"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"><br>
+
+### ver 1
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=black"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"><br>
 
@@ -61,4 +68,5 @@
 
 ### ver 1
 
-*(220804)헤더에 로고와 nav를 이용하여 로고를 추가하였다. 이 과정에서 margin, padding등과 수직 정렬등 레이아웃을 수정하는 작업은 생각보다 굉장히 어려웠다 그리고 반응형 웹은 ver2에서 만들 예정이지만 현재 버전에서도 웹 페이지를 가로로 계속 늘려도 헤더가 중앙으로 배열할 수 있게 만들고 싶었지만 vw를 사용한 배열에서도 화면을 늘리면 헤더가 왼쪽으로 몰리는 문제가 발생했고 이것을 div안에 넣어서 정렬을 한 후 div의 margin을 0 auto로 주어 이 문제를 해결했다. 그 밖에도 수직정렬을 위해 line-height을 조절하는 방법과 padding, margin을 조절하는 방법들을 터득했다.
+* 초기에 CSS를 활용하여 레이아웃 작업하는 부분이 굉장히 어려웠고 예상보다 많은 시간을 써야했다. div 내부의 padding과 박스들의 margin들을 모두 고려해서 만들어야 했고 후에는 그냥 padding을 활용하기보다는 뢰대한 margin에 맞추어 작업을 했었다. header든 content든 footer든 div로 포장을 한 후에 다루는 것이 훨씬 편리하다는 것을 배웠다. 후반부에는 flex를 활용하여 left-content에 상자들을 넣었는데 레이아웃에 적응이 되다보니 초반보다는 훨 수월했다.
+* ver 2에는 javascript를 활용하여 index.html을 최대한 꾸민 후, 완성이 된 다음에야 세부 페이지들을 작성할 수 있도록 해야겠다
