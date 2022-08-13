@@ -73,3 +73,12 @@ body{
 .header_link a:hover{
     color: gray;
 }
+
+#mainContainer{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#main_background{
+    width: 1000px;
+}
