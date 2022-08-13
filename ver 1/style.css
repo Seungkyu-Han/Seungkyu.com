@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'T-Way';
-    src: url(tway_air.ttf);
+    src: url(ttf/tway_air.ttf);
 }
 
 body{
@@ -72,13 +72,4 @@ body{
 
 .header_link a:hover{
     color: gray;
-}
-
-#mainContainer{
-    width: 1000px;
-    margin: 0 auto;
-}
-
-#main_background{
-    width: 1000px;
 }
