@@ -42,6 +42,9 @@
 <img src = "https://github.com/Seungkyu-Han/Seungkyu.com/blob/main/ver%200/ver%200.png">
 
 ### ver 1
+
+개발기간 : 2022. 08. 03 ~ 2022. 08. 13
+
 <img src = "https://github.com/Seungkyu-Han/Seungkyu.com/blob/main/ver%201/ver%201.png">
 
 <hr>
